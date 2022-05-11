@@ -15,6 +15,8 @@ return new class extends Migration
     {
         Schema::create('udemies', function (Blueprint $table) {
             $table->id();
+            $table->string("name");
+            $table->text("beschreibung");
             $table->timestamps();
         });
     }
