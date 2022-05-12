@@ -24,4 +24,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::resources(['hobby' => 'App\Http\Controllers\UdemyController']);
+Route::resources(['udemy' => 'App\Http\Controllers\UdemyController']);
