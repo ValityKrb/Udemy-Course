@@ -15,7 +15,7 @@ class UdemyController extends Controller
      */
     public function index()
     {
-        //
+        echo "hallo";
     }
 
     /**
