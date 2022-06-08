@@ -15,6 +15,8 @@ class UdemyController extends Controller
      */
     public function index()
     {
+        $udemy = Udemy::all();
+        dd($udemy);
         return view("udemy.index");
     }
 

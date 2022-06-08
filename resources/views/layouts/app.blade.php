@@ -39,7 +39,7 @@
                             <a class="nav-link {{ Request::is("/") ? "active" : "" }} " href="/">Startseite</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is("/Udemy*") ? "active" : "" }} " href="/udemy">Udemy</a>
+                            <a class="nav-link {{ Request::is("Udemy*") ? "active" : "" }} " href="/udemy">Udemy</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ Request::is("info") ? "active" : "" }}" href="/info">Information</a>
